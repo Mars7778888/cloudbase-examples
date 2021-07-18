@@ -11,6 +11,9 @@
 			display: flex;
 			justify-content: center;
 			align-items: center;
+			position: absolute;
+			top: 0px;
+			bottom: 0px;
 		}
 		.content{
 			width:95%;
