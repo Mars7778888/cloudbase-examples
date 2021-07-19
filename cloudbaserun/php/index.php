@@ -9,6 +9,7 @@
 			width:100%;
 			height:auto;
 			display: flex;
+			flex-direction: column;
 			justify-content: center;
 			align-items: center;
 			position: absolute;
@@ -19,6 +20,12 @@
 		.content{
 			width:95%;
 			height:100%;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		.button{
+			width:50%;
 			display: flex;
 			justify-content: center;
 			align-items: center;
@@ -98,6 +105,11 @@
 	?>
 	<div class="content">
 		<?php echo $arr[$rand]; ?>
+	</div>
+	<div class="content">
+		<button class="button">
+		随机抽取一个问题
+		</button>
 	</div>
 </body>
 </html>
