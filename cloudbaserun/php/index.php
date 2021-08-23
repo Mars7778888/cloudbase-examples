@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-    <title>随机问答</title>
+    <title>浪漫营业中随机问题箱</title>
 	<style>
 		.body{
 			width:100%;
