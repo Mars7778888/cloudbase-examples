@@ -15,7 +15,10 @@
 			position: absolute;
 			top: 0px;
 			bottom: 0px;
-			background-color:#F4EDE3;
+			background-image:url(1.jpg);
+			background-size:100% 100%;
+			background-repeat:no-repeat:
+			
 		}
 		.content{
 			width:95%;
