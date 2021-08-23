@@ -6,7 +6,7 @@
 	<style>
 		.bg{
 			width:100%;
-			height:auto;
+			height:100%;
 			display: flex;
 			flex-direction: column;
 			align-items: center;
@@ -15,9 +15,8 @@
 			top: 0px;
 			bottom: 0px;
 			background-image: url(https://6865-hello-cloudbase-7gz02kg4a3497f0f-1252311972.tcb.qcloud.la/2.jpg?sign=8edc57b026ef43b4643a85adf7be0630&t=1629702145);
-				background-repeat: no-repeat;
+			background-repeat: no-repeat;
 					background-size: 100% 100%;
-			
 		}
 		.content{
 			width:95%;
@@ -25,6 +24,8 @@
 			display: flex;
 			justify-content: center;
 			align-items: center;
+			font-size: 80px;
+			margin-top: 300px;
 		}
 		.content_b{
 			width:95%;
@@ -32,6 +33,7 @@
 			display: flex;
 			justify-content: center;
 			align-items: center;
+			font-size: 80px;
 		}
 	</style>
 </head>
@@ -111,7 +113,7 @@
 		<?php echo $arr[$rand]; ?>
 	</div>
 	<div class="content_b">			
-		<button style="width:45%;height: 50px;padding:0;" onclick="buttonClick();">  
+		<button style="width:65%;height: 150px;padding:0;font-size: 60px;" onclick="buttonClick();">  
 		  随机抽取一个问题
 		</button>
 	</div>
