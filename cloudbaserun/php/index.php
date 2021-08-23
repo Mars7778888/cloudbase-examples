@@ -14,7 +14,7 @@
 			position: absolute;
 			top: 0px;
 			bottom: 0px;
-			background-image: url(./a.jpg);
+			background-image: url(./2.jpg);
 			background-repeat: no-repeat;
 			background-size: 100% 100%;
 		}
