@@ -14,7 +14,7 @@
 			position: absolute;
 			top: 0px;
 			bottom: 0px;
-			background-image: url("./2.jpg");
+			background-image: url(https://6865-hello-cloudbase-7gz02kg4a3497f0f-1252311972.tcb.qcloud.la/2.jpg?sign=8edc57b026ef43b4643a85adf7be0630&t=1629702145);
 				background-repeat: no-repeat;
 					background-size: 100% 100%;
 			
