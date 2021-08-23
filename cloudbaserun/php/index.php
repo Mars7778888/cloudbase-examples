@@ -24,8 +24,8 @@
 			display: flex;
 			justify-content: center;
 			align-items: center;
-			font-size: 80px;
-			margin-top: 300px;
+			font-size: 48px;
+			margin-top:  300px;
 		}
 		.content_b{
 			width:95%;
