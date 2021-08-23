@@ -2,12 +2,11 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <title>浪漫营业中随机问题箱</title>
 	<style>
-		.body{
+		.bg{
 			width:100%;
-			height:auto;
+			height:100%;
 			display: flex;
 			flex-direction: column;
 			align-items: center;
@@ -15,10 +14,9 @@
 			position: absolute;
 			top: 0px;
 			bottom: 0px;
-			background-image:url(1.jpg);
-			background-size:100% 100%;
-			background-repeat:no-repeat:
-			
+			background-image: url(./a.jpg);
+			background-repeat: no-repeat;
+			background-size: 100% 100%;
 		}
 		.content{
 			width:95%;
@@ -37,6 +35,7 @@
 	</style>
 </head>
 <body class="body">
+	<div class="bg">
 	<?php
 		$arr = [
 			"1 你强势吗？如果是女生比你会喝酒会社交、会整合资源。",
@@ -114,6 +113,7 @@
 		<button style="width:45%;height: 50px;padding:0;" onclick="buttonClick();">  
 		  随机抽取一个问题
 		</button>
+	</div>
 	</div>
 </body>
 </html>
